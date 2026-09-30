@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #05050b;
+  --card-bg: #0d0d18;
+  --neon-blue: #00d4ff;
+  --neon-purple: #a855f7;
+  --neon-gold: #fbbf24;
+  --text: #ffffff;
+  --text-muted: #8b8b9e;
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: radial-gradient(ellipse at top, #0f0f1a 0%, #05050b 70%);
+}
+
+/* Scrollbar hide */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: inherit;
+}
